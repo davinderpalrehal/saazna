@@ -1,30 +1,41 @@
-<script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
+  <h1>Saazna</h1>
+
   <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+    <table>
+      <tr>
+        <td>Ge</td>
+        <td>Ge</td>
+        <td>Ti</td>
+        <td>T</td>
+        <td>Ge</td>
+        <td>Ge</td>
+        <td>Ti</td>
+        <td>T</td>
+      </tr>
+      <tr>
+        <td>Ke</td>
+        <td>Ke</td>
+        <td>Ti</td>
+        <td>T</td>
+        <td>Ge</td>
+        <td>Ge</td>
+        <td>Ti</td>
+        <td>T</td>
+      </tr>
+    </table>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+
+  <div>
+    Metronome
+  </div>
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+<style lang="scss">
+table {
+  td {
+    border: 1px solid rosybrown;
+    width: 5ch;
+  }
 }
 </style>

@@ -15,3 +15,6 @@ up-fe:
 	(cd "${CURDIR}/fe" && pnpm i && pnpm dev)
 
 up: up-be up-fe
+
+up-emulators:
+    (firebase emulators:start)
